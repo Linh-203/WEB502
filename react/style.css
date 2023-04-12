@@ -1,0 +1,71 @@
+.containerLogin {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1em;
+}
+.link-no-underline {
+  text-decoration: none;
+}
+.left img {
+  width: 100%;
+  height: auto;
+}
+.right {
+  margin-top: 15em;
+  margin-right: 8em;
+}
+
+.right input {
+  margin-top: 0.5em;
+
+  width: 90%;
+}
+.right label {
+  margin-right: 10%;
+}
+.btn-login {
+  margin-left: -6em;
+}
+.containerSignUp {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1em;
+  /* background-color: lightseagreen; */
+}
+.left-signUp img {
+  width: 100%;
+  height: auto;
+}
+.right-signUp {
+  margin-top: 12em;
+  margin-right: 8em;
+}
+
+.right-signUp input {
+  margin-top: 0.5em;
+  width: 90%;
+}
+.right-signUp label {
+  margin-right: 10%;
+}
+.btn-signUp {
+  margin-left: -6em;
+}
+.prd-img img {
+  width: 100px;
+}
+.table {
+  text-align: center;
+  margin-top: 1em;
+}
+.btn-success {
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+.btn-success a {
+  text-decoration: none;
+  color: white;
+}
+.menuWebsite {
+  display: flex;
+}
